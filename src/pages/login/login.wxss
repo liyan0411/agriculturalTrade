@@ -1,7 +1,7 @@
 /* pages/login/login.wxss */
 
 page {
-  background: url('');
+  background: url('https://s3.cn-north-1.amazonaws.com.cn/anjiplus-shh/72fb0b2f17caa001b45a64293f39daf72696660746431085989.png');
   background-size: cover;
 }
 
