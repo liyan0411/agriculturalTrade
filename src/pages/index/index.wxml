@@ -16,6 +16,6 @@
     <button type="primary"> 占位 </button>
   </view>
   <view class="btnView">
-    <button type="primary"  bindtap="primary"> 添加检测 </button>
+    <button type="primary" hover-class="activeCls"  bindtap="primary"> 添加检测 </button>
   </view>
 </view>

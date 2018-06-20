@@ -10,7 +10,7 @@
     "pages/index/detectionProcedure/detectionProcedure",
     "pages/user/myCard/myCard",
     "pages/user/storeInfo/storeInfo",
-    "pages/user/myCommodity/myCommodity ",
+    "pages/user/myCommodity/myCommodity",
     "pages/user/contract/contract",
     "pages/user/marketInfo/marketInfo",
     "pages/user/scanCodeInfo/scanCodeInfo"

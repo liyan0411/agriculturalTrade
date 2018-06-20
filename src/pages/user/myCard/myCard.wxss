@@ -1,1 +1,33 @@
 /* pages/user/myCard/myCard.wxss */
+.section{
+  border:4px solid #eee;
+  border-left:none;
+  border-right:none;
+  padding-bottom: 20rpx;
+}
+.section__title{
+  padding: 30rpx;
+  text-align: center;
+}
+.section__img{
+  height: 500rpx;
+  background: red;
+}
+.section__phone{
+  margin-top: 30rpx;
+}
+.section__phone,.section__address{
+  text-align: center;
+  padding: 15rpx;
+}
+.content view:first-child{
+  text-align: center;
+  padding: 20rpx;
+  color:#000;
+}
+.list{
+  padding: 0 20rpx;
+}
+.list text{
+  padding: 0 10rpx;
+}

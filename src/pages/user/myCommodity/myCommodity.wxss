@@ -1,0 +1,57 @@
+/* pages/user/myCommodity/myCommodity.wxss */
+page {
+  background: #eee;
+  padding-top: 20rpx;
+  box-sizing:border-box;
+}
+.section{
+
+  background: #fff;
+}
+.section__title{
+  padding: 25rpx 10rpx;
+  border-bottom: 1px solid #eee;
+}
+.section__title text{
+  margin:10rpx;
+  padding-left: 5px;
+  border-left: 2px solid #11b37a;
+}
+.flex-wrp{
+  padding:0 15rpx;
+  flex-direction:column;
+}
+.flex-item{
+  padding: 15rpx;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items:center; 
+}
+.flex-item image:first-child{
+  width:70rpx;
+  height:70rpx;
+  border-radius:50%;
+}
+.flex-item image:last-child{
+  width:70rpx;
+  height:70rpx;
+}
+.flex-item text{
+  margin-left:40rpx;
+  flex: 1;
+}
+.btnView{
+  margin:0 auto;
+  width: 100%;
+  padding: 46rpx 0;
+  background: #eee;
+  position: fixed;
+  bottom:0;
+}
+.btnView>button{
+  width: 94%;
+  background:#11b37a; 
+}
+.activeCls{
+  background-color:#11b37a; 
+}

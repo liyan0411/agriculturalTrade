@@ -1,2 +1,26 @@
 <!--pages/user/myCard/myCard.wxml-->
-<text>我的名片</text>
+ <navigation-bar title="我的商品" isShowBack="{{ true }}"></navigation-bar> 
+<view>
+  <view class="section">
+    <view class="section__title">
+      正品蔬菜店
+    </view>
+    <view class="section__img">
+      
+    </view>
+    <view class="section__phone">
+      13934237286
+    </view>
+    <view class="section__address">
+      北京新发地农贸市场 蔬菜区 B1092
+    </view>
+
+  </view>
+  <view class="content">
+    <view>主营商品</view>
+      <view class="list">
+        <text wx:for="{{contentList}}">{{item}}</text>
+
+      </view>
+</view>
+</view>

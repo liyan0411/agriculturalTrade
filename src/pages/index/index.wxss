@@ -23,13 +23,13 @@ page {
   height: 60px;
   position: absolute;
   top:50%;
-  margin-top: -50rpx;
+  margin-top: -60rpx;
   right: 60rpx;
 }
 .flex-item ul{
   position: absolute;
   top:50%;
-  margin-top: -30rpx;
+  margin-top: -50rpx;
   left: 62rpx;
 }
 .flex-item li{
@@ -54,4 +54,7 @@ page {
 .btnView>button{
   width: 94%;
   background:#11b37a; 
+}
+.activeCls{
+  background-color:#11b37a; 
 }

@@ -1,11 +1,15 @@
-// pages/user/myCommodity/myCommodity .js
+// pages/user/myCommodity/myCommodity.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    listData:[
+      { src:"https://s3.cn-north-1.amazonaws.com.cn/anjiplus-shh/4ab1db6fa7e972a7ce95f99838d710151410183699105705194.png",name:"小白菜2"},
+      { src: "https://s3.cn-north-1.amazonaws.com.cn/anjiplus-shh/4ab1db6fa7e972a7ce95f99838d710151410183699105705194.png", name: "小白菜3" },
+      { src: "https://s3.cn-north-1.amazonaws.com.cn/anjiplus-shh/4ab1db6fa7e972a7ce95f99838d710151410183699105705194.png", name: "小白菜3" },
+    ]
   },
 
   /**
