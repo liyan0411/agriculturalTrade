@@ -22,6 +22,10 @@ Component({
       type: Boolean,
       value: true
     },
+    isJiantou: {
+      type: Boolean,
+      value: true
+    },
     isPlaceholder: {
       type: Boolean,
       value: true

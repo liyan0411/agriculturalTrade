@@ -6,7 +6,7 @@ page {
 }
 
 .title {
-  padding: 170rpx 0 160rpx 66rpx;
+  padding: 90rpx 0 160rpx 66rpx;
   /* font-weight: 600; */
   font-size: 31px;
 }

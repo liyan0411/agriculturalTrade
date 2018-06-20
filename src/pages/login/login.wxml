@@ -1,3 +1,4 @@
+ <navigation-bar backgroundColor="rgba(0,0,0,0)" isJiantou="{{ false }}" isShowBack="{{ false }}"></navigation-bar> 
 <view>
   <view class='title'>您好，请验证</view>
   <form bindsubmit="loginIn">
