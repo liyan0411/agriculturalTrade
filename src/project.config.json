@@ -33,13 +33,18 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 1,
 			"list": [
 				{
 					"id": -1,
 					"name": "来货备案",
 					"pathName": "pages/index/index",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "来货申请",
+					"pathName": "pages/index/cargoApplyFor/cargoApplyFor"
 				}
 			]
 		}

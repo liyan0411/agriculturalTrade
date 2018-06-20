@@ -25,7 +25,7 @@ form .row {
 
 input {
   flex: 1;
-  padding: 36rpx 0;
+  padding: 34rpx 0;
 }
 
 .code {

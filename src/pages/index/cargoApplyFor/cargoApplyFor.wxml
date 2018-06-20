@@ -1,2 +1,37 @@
-<!--pages/index/cargoApplyFor/cargoApplyFor.wxml-->
-<text>来货申请</text>
+<navigation-bar title="智慧农贸" isShowBack="{{ true }}"></navigation-bar>
+<form bindsubmit="loginIn">
+  <view class='box'>
+    <view class='row'>
+      <view class='title'>商品名称:</view>
+      <input type='text' name='commodityName' placeholder='请输入商品名称'></input>
+    </view>
+    <view class='row'>
+      <view class='title'>商品数量:</view>
+      <input type='number' name='commodityNumber' placeholder='请输入商品数量'></input>
+    </view>
+    <view class='row'>
+      <view class='title'>产地:</view>
+      <view class='right'>
+        <view>省市</view>
+        <view>城市</view>
+        <view>区县</view>
+      </view>
+    </view>
+    <view class='row'>
+      <input type='text' name='address' placeholder='请输入详细地址'></input>
+    </view>
+    <view class='row'>
+      <view class='title'>来货车牌号:</view>
+      <input type='number' name='carNumber' placeholder='请输入来货车牌号'></input>
+    </view>
+    <view class='row'>
+      <view class='title'>到货时间:</view>
+      <view class='right'>
+        <view>2018</view>
+        <view>8月</view>
+        <view>8日</view>
+      </view>
+    </view>
+  </view>
+  <button form-type='submit' class='submit-btn'>确认</button>
+</form>

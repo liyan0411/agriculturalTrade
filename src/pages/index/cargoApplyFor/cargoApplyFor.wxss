@@ -1,1 +1,48 @@
 /* pages/index/cargoApplyFor/cargoApplyFor.wxss */
+page {
+  background: #eee;
+}
+form {
+  display: block;
+  margin-top: 20rpx;  
+}
+form .box {
+  display: block;
+  background: #fff;
+}
+
+form .row {
+  display: flex;
+  align-items: center;
+  padding: 34rpx 30rpx;      
+  border-bottom: 1rpx solid #eee;
+}
+form .row:last-child {
+  border-bottom: none;
+}
+form .row .title {
+  width: 75px;
+}
+form .row .right {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+form .row .right view {
+  margin-right: 20rpx;
+  border: 1rpx solid #eee;
+  border-radius: 8rpx;
+  padding: 0 10rpx;
+  color: #999;
+}
+input {
+  flex: 1;
+}
+.submit-btn {
+  margin-top: 140rpx;
+  color: #fff;
+  background: #11b37a;
+  width: 690rpx;
+}
+
