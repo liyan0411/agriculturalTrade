@@ -1,1 +1,6 @@
-{}
+{
+  "navigationBarTitleText": "智慧农贸",
+  "usingComponents": {
+    "navigation-bar": "/components/navigation-bar/navigation-bar"
+  }
+}

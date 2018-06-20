@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -50,7 +50,13 @@
 				{
 					"id": -1,
 					"name": "检测中",
-					"pathName": "pages/index/detectionProcedure/detectionProcedure"
+					"pathName": "pages/index/detectionProcedure/detectionProcedure",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "检测结果",
+					"pathName": "pages/index/testingResult/testingResult"
 				}
 			]
 		}

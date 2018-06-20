@@ -1,2 +1,97 @@
-<!--pages/index/testingResult/testingResult.wxml-->
-<text>检测结果</text>
+<navigation-bar title="检测结果" isShowBack="{{ true }}"></navigation-bar>
+<view class='container'>
+  <view class='banner'></view>
+  <view class='ul'>
+    <view class='title'>
+      <view>不合格项目</view>
+    </view>
+    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>
+    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>
+  </view>
+  <view class='ul'>
+    <view class='title'>
+      <view>合格项目</view>
+    </view>
+    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>
+    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>    <view class='li'>
+      <view class='left'>孔雀石绿</view>
+      <view class='right'>0.23ug/Kg</view>
+    </view>
+  </view>
+</view>
+<view class='footer'>
+  <view class='left'>打印报告</view>
+  <view class='right'>下载报告</view>
+</view>
