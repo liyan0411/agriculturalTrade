@@ -1,0 +1,2 @@
+ <navigation-bar title="市场管理" isShowBack="{{ false }}"></navigation-bar> 
+<!-- <view>来货备案</view> -->
