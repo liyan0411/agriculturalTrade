@@ -1,2 +1,43 @@
-<!--pages/user/scanCodeInfo/scanCodeInfo.wxml-->
-<text>扫码信息</text>
+<navigation-bar title="商户信息" isShowBack="{{ true }}"></navigation-bar>
+<view>
+  <view class='topBox'>
+    <view class='box'>
+      <view class='head'></view>
+      <view class='bottom'>
+        <view class='name'>正品蔬菜店</view>
+        <view class='address'>
+          <view class='icon'>!</view>
+          <view class='text'>北京-西城区</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='tabNva'>
+    <view class='item avtive'>商户信息</view>
+    <view class='item'>经营商品</view>
+    <view class='item'>检测公示</view>
+  </view>
+  <view class='content1 content'>
+    <view class='storeInfo'>
+      <view class='address'>
+        <view>北京新发地农贸市场</view>
+        <view>蔬菜区 B-109区</view>
+      </view>
+      <view class='phone'>13978901234</view>
+    </view>
+    <view class='commodity'>
+      <view class='title'>主营商品</view>
+      <view>黄瓜，西红柿等新鲜蔬菜</view>
+    </view>
+    <view class='licence'>
+      <view class='item'>
+        <view></view>
+        <view class='text'>营业执照</view>
+      </view>
+      <view class='item'>
+        <view></view>
+        <view class='text'>食品安全许可证</view>
+      </view>
+    </view>
+  </view>
+</view>

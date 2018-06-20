@@ -1,2 +1,30 @@
- <navigation-bar title="我的" isShowBack="{{ false }}"></navigation-bar> 
-<!-- <view>来货备案</view> -->
+<navigation-bar title="我的" isShowBack="{{ false }}"></navigation-bar>
+<view class='box'>
+  <view class='card'>
+    <view class='userInfo'>
+      <view class='head'></view>
+      <view class='info'>
+        <view class='name'>正品农贸店</view>
+        <view class='id'>ID:56464334</view>
+      </view>
+    </view>
+    <view class='ewm'>二维码</view>
+  </view>
+  <view class='list'>
+    <view class='row'>
+      <view class='icon'>1</view>
+      <view class='text'>店铺资料</view>
+      <view class='icon jiantou'>></view>
+    </view>
+    <view class='row'>
+      <view class='icon'>1</view>
+      <view class='text'>商品管理</view>
+      <view class='icon jiantou'>></view>
+    </view>
+    <view class='row'>
+      <view class='icon'>1</view>
+      <view class='text'>查看合同</view>
+      <view class='icon jiantou'>></view>
+    </view>
+  </view>
+</view>

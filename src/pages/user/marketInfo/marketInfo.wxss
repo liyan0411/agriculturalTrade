@@ -1,1 +1,42 @@
 /* pages/user/marketInfo/marketInfo.wxss */
+page {
+  background: #eee;
+}
+.list {
+  padding: 30rpx;
+}
+.list .item {
+  background: #fff;
+  padding: 20rpx;
+  margin-bottom: 30rpx;
+}
+.list .item .title {
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+  padding-bottom: 20rpx;
+}
+.list .item .title .statu {
+  color: #11a3f7;
+  border: 1rpx solid #11a3f7;
+  margin-left: 20rpx;
+  font-size: 12px;
+  padding: 0 10rpx;
+  border-radius: 6rpx;
+}
+.list .item .content {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 20rpx;
+}
+.list .item .content .text {
+  flex: 1;
+}
+.jiantou {
+  width: 30rpx;
+}
+
+/* 已查看 */
+.isRead {
+  color: #999;
+}

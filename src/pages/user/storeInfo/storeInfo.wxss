@@ -1,1 +1,118 @@
-/* pages/user/storeInfo/storeInfo.wxss */
+page {
+  background: #eee;
+}
+
+form {
+  display: block;
+  margin-top: 20rpx;
+}
+
+form .box {
+  display: block;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+
+form .row {
+  display: flex;
+  align-items: center;
+  padding: 34rpx 30rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+form .row:last-child {
+  border-bottom: none;
+}
+
+form .row .title {
+  width: 75px;
+}
+
+form .row .right {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+form .row .right view {
+  margin-right: 20rpx;
+  border: 1rpx solid #eee;
+  border-radius: 8rpx;
+  padding: 0 10rpx;
+  color: #999;
+}
+
+input {
+  flex: 1;
+}
+
+.submit-btn {
+  margin-top: 80rpx;
+  margin-bottom: 40rpx;
+  color: #fff;
+  background: #11b37a;
+  width: 690rpx;
+}
+
+.box .head {
+  border-bottom: 1rpx solid #eee;
+  padding: 34rpx;
+}
+
+.box .head view {
+  position: relative;
+  padding-left: 30rpx;
+}
+
+.box .head view::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 15px;
+  left: 0;
+  top: 2px;
+  background: #11b37a;
+}
+
+.icon-head {
+  width: 100rpx;
+  height: 100rpx;
+  background: #eee;
+  border-radius: 50%;
+}
+
+.stallNumber {
+  width: 180rpx;
+}
+
+.endRow {
+  display: flex;
+  align-items: flex-start;
+  padding: 34rpx 30rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+.endRow .licence {
+  display: flex;
+}
+.endRow .licence .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #eee;
+  border: 1rpx solid #ddd;
+  width: 250rpx;
+  margin-left: 20rpx;
+  padding: 30rpx 0;
+}
+.endRow .licence .item .add {
+  width: 50rpx;
+  height: 50rpx;
+  text-align: center;
+  background: #11b37a;
+  border-radius: 50%;
+  background: #fff;
+  color: #11b37a;
+  border: 1rpx solid #11b37a;
+  margin-bottom: 10rpx;
+}

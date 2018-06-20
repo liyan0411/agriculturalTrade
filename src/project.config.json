@@ -76,6 +76,24 @@
 					"name": "我的名片",
 					"pathName": "pages/user/myCard/myCard",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/user/user",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "店铺资料",
+					"pathName": "pages/user/storeInfo/storeInfo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "扫码页面",
+					"pathName": "pages/user/scanCodeInfo/scanCodeInfo",
+					"query": ""
 				}
 			]
 		}

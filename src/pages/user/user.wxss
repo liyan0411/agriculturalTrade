@@ -1,1 +1,38 @@
 /* pages/user/user.wxss */
+page {
+  background: #eee;
+}
+.box {
+  background: #fff;
+  padding: 30rpx;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #11a3f7;
+  color: #fff;
+  border-radius: 10rpx;
+  padding: 30rpx;
+}
+.card .userInfo {
+  display: flex;
+  align-items: center;
+}
+.card .head {
+  width: 100rpx;
+  height: 100rpx;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 30rpx;
+}
+.list {
+  margin-top: 30rpx;
+}
+.list .row {
+  display: flex;
+  padding: 30rpx 0;
+}
+.list .row .text {
+  flex: 1;
+}
