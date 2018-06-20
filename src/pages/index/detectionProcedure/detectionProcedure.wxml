@@ -1,2 +1,29 @@
-<!--pages/index/detectionProcedure/detectionProcedure.wxml-->
-<text>检测中</text>
+<navigation-bar title="智慧农贸" isShowBack="{{ true }}"></navigation-bar>
+<form bindsubmit="loginIn">
+  <view class='box'>
+    <view class='row'>
+      <view class='title'>商品名称:</view>
+      <view>大白菜</view>
+    </view>
+    <view class='row'>
+      <view class='title'>商品数量:</view>
+      <view>500KG</view>
+    </view>
+    <view class='row'>
+      <view class='title'>产地:</view>
+      <view class='right'>
+        <view>浙江省</view>
+        <view>杭州市</view>
+        <view>滨江区</view>
+      </view>
+    </view>
+    <view class='row'>
+      杭州市滨江区网商路688号1号楼3楼302室
+    </view>
+    <view class='row'>
+      <view class='title'>来货车牌号:</view>
+      <view>京A1314</view>
+    </view>
+  </view>
+  <button form-type='submit' class='submit-btn'>确认</button>
+</form>
