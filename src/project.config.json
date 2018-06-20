@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 3,
+			"current": 2,
 			"list": [
 				{
 					"id": -1,
@@ -56,7 +56,8 @@
 				{
 					"id": -1,
 					"name": "检测结果",
-					"pathName": "pages/index/testingResult/testingResult"
+					"pathName": "pages/index/testingResult/testingResult",
+					"query": ""
 				}
 			]
 		}

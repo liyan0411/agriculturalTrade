@@ -2,34 +2,35 @@
 page {
   background: #eee;
 }
-form {
+.container {
   display: block;
   margin-top: 20rpx;  
 }
-form .box {
+.container .box {
   display: block;
   background: #fff;
+  margin-bottom: 140rpx;  
 }
 
-form .row {
+.container .row {
   display: flex;
   align-items: center;
   padding: 34rpx 30rpx;      
   border-bottom: 1rpx solid #eee;
 }
-form .row:last-child {
+.container .row:last-child {
   border-bottom: none;
 }
-form .row .title {
+.container .row .title {
   width: 75px;
 }
-form .row .right {
+.container .row .right {
   display: flex;
   flex: 1;
   align-items: center;
 }
 
-form .row .right view {
+.container .row .right view {
   margin-right: 20rpx;
   border: 1rpx solid #eee;
   border-radius: 8rpx;
@@ -39,8 +40,18 @@ form .row .right view {
 input {
   flex: 1;
 }
+.state {
+  background: #fff;
+  width: 140rpx;
+  text-align: center;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin: 0 auto;
+  margin-bottom: 10rpx;
+  border-radius: 8rpx;
+  border: 1rpx solid #ddd;
+}
 .submit-btn {
-  margin-top: 140rpx;
   color: #fff;
   background: #11b37a;
   width: 690rpx;
