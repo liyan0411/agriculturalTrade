@@ -1,4 +1,4 @@
-// pages/login/login.js
+// pages/user/myCommodity /myCommodity .js
 Page({
 
   /**
@@ -7,12 +7,7 @@ Page({
   data: {
   
   },
-  loginIn(e) {
-    console.log(e)
-    wx.switchTab({
-      url: '/pages/index/index',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -61,4 +56,11 @@ Page({
   onReachBottom: function () {
   
   },
+
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage: function () {
+  
+  }
 })

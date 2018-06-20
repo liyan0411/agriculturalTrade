@@ -1,1 +1,60 @@
 /* pages/login/login.wxss */
+
+page {
+  background: url('');
+  background-size: cover;
+}
+
+.title {
+  padding: 170rpx 0 160rpx 66rpx;
+  /* font-weight: 600; */
+  font-size: 31px;
+}
+
+form {
+  display: block;
+  padding: 0 64rpx;
+  font-size: 16px;
+}
+
+form .row {
+  display: flex;
+  align-items: center;
+  border-bottom: 2rpx solid #ddd;
+}
+
+input {
+  flex: 1;
+  padding: 36rpx 0;
+}
+
+.code {
+  font-size: 12px;
+  border-left: 2rpx solid #ddd;
+  padding: 0 24rpx 0 40rpx;
+  color: #11b37a;
+}
+
+.icon {
+  margin-right: 54rpx;
+  width: 45rpx;
+}
+
+.icon image {
+  width: 45rpx;
+  height: 45rpx;
+}
+
+.icon .phone {
+  width: 35rpx;
+}
+
+.btn-submit {
+  width: 620rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  color: #fff;
+  margin-top: 64rpx;
+  border-radius: 44rpx;
+  background: #11b37a;
+}
