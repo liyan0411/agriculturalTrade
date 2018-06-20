@@ -1,2 +1,21 @@
  <navigation-bar title="来货备案" isShowBack="{{ false }}"></navigation-bar> 
-<!-- <view>来货备案</view> -->
+<view class="section">
+  <view class="flex-wrp">
+    <view wx:for="{{listData}}" class="flex-item" style="">
+      <ul>
+        <li>{{item.name}}<text class="smallCls">({{item.num}})</text></li>
+        <li>提交时间：<text>{{item.time}}</text></li>
+      </ul>
+       <image wx:if="{{item.status==1}}" src="../../images/pass.png"></image> 
+       <image wx:elif="{{item.status==2}}" src="../../images/nopass.png"></image>
+       <!-- <image wx:elif="{{item.status==1}}" src="../../images/nopass.png"></image>   -->
+    </view>
+
+  </view>
+  <view style="padding: 46rpx 0;">
+    <button type="primary"> 占位 </button>
+  </view>
+  <view class="btnView">
+    <button type="primary"  bindtap="primary"> 添加检测 </button>
+  </view>
+</view>
