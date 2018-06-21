@@ -18,5 +18,5 @@
     <view>
     合同(Contract)，又称为契约、协议，是平等的当事人之间设立、变更、终止民事权利义务关系的协议。合同作为一种民事法律行为，是当事人协商一致的产物，是两个以上的意思表示相一致的协议。只有当事人所作出的意思表示合法，合同才具有国家法律约束力。依法成立的合同从成立之日起生效，具有国家法律约束力。
     </view>
-    <button type="primary" hover-class="activeCls"  bindtap="primary"> 确定签署 </button>
+    <button class="btns" type="primary" hover-class="activeCls"  bindtap="primary"> 确定签署 </button>
 </view>

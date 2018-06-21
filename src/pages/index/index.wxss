@@ -26,21 +26,21 @@ page {
   margin-top: -60rpx;
   right: 60rpx;
 }
-.flex-item ul{
+.flex-item .ul{
   position: absolute;
   top:50%;
   margin-top: -50rpx;
   left: 62rpx;
 }
-.flex-item li{
+.flex-item .li{
   display: block;
   font-size: 24px;
 }
-.flex-item li>.smallCls{
+.flex-item .li>.smallCls{
   padding-left: 30rpx;
   font-size: 14px;
 }
-.flex-item li:nth-child(2){
+.flex-item .li:nth-child(2){
   font-size: 13px;
 }
 .btnView{
@@ -52,8 +52,12 @@ page {
   bottom:0;
 }
 .btnView>button{
-  width: 94%;
+  width: 690rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
   background:#11b37a; 
+  line-height: 80rpx;
+  font-size: 32rpx;
 }
 .activeCls{
   background-color:#11b37a; 

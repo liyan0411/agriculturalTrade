@@ -32,10 +32,14 @@ page{
   color:#666;
   line-height: 50rpx;  
 }
-button{
+button.btns{
   margin-top: 60rpx;
-  width: 40%;
-  background:#11b37a; 
+  width: 310rpx;
+  height:88rpx;
+  border-radius: 10rpx;
+  font-size: 32rpx;
+  background-color:#11b37a; 
+  line-height: 88rpx;
 }
 .activeCls{
   background-color:#11b37a; 
