@@ -5,9 +5,40 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    navList: [
+      {
+        iconUrl: '/images/user/icon1.png',
+        text: '店铺资料',
+        url: '/pages/user/storeInfo/storeInfo'
+      },
+      {
+        iconUrl: '/images/user/icon2.png',
+        text: '商品管理',
+        url: '/pages/user/myCommodity/myCommodity'
+      },
+      {
+        iconUrl: '/images/user/icon3.png',
+        text: '查看合同',
+        url: '/pages/user/contract/contract'
+      },
+      {
+        iconUrl: '/images/user/icon4.png',
+        text: '查看店铺',
+        url: '/pages/user/scanCodeInfo/scanCodeInfo'
+      },
+      {
+        iconUrl: '/images/user/icon5.png',
+        text: '市场消息',
+        url: '/pages/user/marketInfo/marketInfo'
+      }
+    ]
   },
-
+  openPage(e) {
+    let url = e.currentTarget.dataset.url
+    wx.navigateTo({
+      url
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
