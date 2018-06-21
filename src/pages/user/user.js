@@ -39,6 +39,11 @@ Page({
       url: url
     })
   },
+  myCard() {
+    wx.navigateTo({
+      url: '/pages/user/myCard/myCard',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

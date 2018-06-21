@@ -6,7 +6,29 @@ Page({
    */
   data: {
     isShowPayTheFees: true,
-    isShowPayRecord: false
+    isShowPayRecord: false,
+    commodityList: [
+      {
+        imgUrl: '',
+        text: '小白菜'
+      },
+      {
+        imgUrl: '',
+        text: '小白菜'
+      },
+      {
+        imgUrl: '',
+        text: '小白菜'
+      },
+      {
+        imgUrl: '',
+        text: '小白菜'
+      },
+      {
+        imgUrl: '',
+        text: '小白菜'
+      }
+    ]
   },
 
   /**

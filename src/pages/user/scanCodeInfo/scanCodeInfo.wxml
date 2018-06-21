@@ -17,7 +17,7 @@
     <view class='item'>经营商品</view>
     <view class='item'>检测公示</view>
   </view>
-  <view class='content1 content'>
+  <view class='content1 content' hidden='true'>
     <view class='storeInfo'>
       <view class='address'>
         <view>北京新发地农贸市场</view>
@@ -37,6 +37,18 @@
       <view class='item'>
         <view></view>
         <view class='text'>食品安全许可证</view>
+      </view>
+    </view>
+  </view>
+  <view class='content2 content'>
+    <view class='title'>
+      <image src='/images/icon/shu.png'></image>
+      <text>蔬菜类</text>
+    </view>
+    <view class='list'>
+      <view class='row' wx:for="{{ commodityList }}">
+        <image src='{{ item.imgUrl }}'></image>
+        <view>{{ item.text }}</view>
       </view>
     </view>
   </view>

@@ -109,3 +109,38 @@ page {
   justify-content: space-around;
   text-align: center;
 }
+
+.content2 {
+  background: #fff;
+  margin-top: 20rpx;
+  border-radius: 8rpx;
+}
+.content2 .list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 30rpx;
+}
+.content2 .title {
+  display: flex;
+  align-items: center;
+  padding: 30rpx;
+  border-bottom: 1rpx solid #ddd;
+  width: 100%;
+}
+
+.content2 .title image {
+  display: block;
+  margin-right: 20rpx;
+  width: 4rpx;
+  height: 26rpx;
+}
+.content2 .row {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1rpx solid #ddd;
+   width: 50%;  
+}
+.content2 .row image {
+  width: 40rpx;
+  height: 40rpx;
+}
