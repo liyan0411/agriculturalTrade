@@ -14,11 +14,12 @@ page {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #11a3f7;
+  background: url('https://s3.cn-north-1.amazonaws.com.cn/anjiplus-shh/9ed8af61b3edc4536a8ed12d65723f2b6326345810642139673.png') no-repeat; 
+  background-size: cover;
   color: #fff;
   border-radius: 10rpx;
   padding: 56rpx 56rpx 56rpx 34rpx;
-  margin: 0 35rpx;
+  /* margin: 0 35rpx; */
 }
 
 .card .userInfo {
