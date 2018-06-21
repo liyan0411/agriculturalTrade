@@ -6,7 +6,9 @@
       正品蔬菜店
     </view>
     <view class="section__img">
-      
+      <view>
+      二维码存放区
+      </view>
     </view>
     <view class="section__phone">
       13934237286
