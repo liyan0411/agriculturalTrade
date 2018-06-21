@@ -1,1 +1,50 @@
-/* pages/index/lookCode/lookCode.wxss */
+/* pages/user/myCard/myCard.wxss */
+page {
+  background: #fff;
+}
+.section{
+  border-top: 20rpx solid #ddd;
+  border-left:none;
+  border-right:none;
+  padding-bottom: 20rpx;
+}
+.section__title{
+  padding: 30rpx;
+  text-align: center;
+}
+.section__img{
+  margin-top: 190rpx;
+  position: relative;
+  height: 700rpx;
+  background:url("https://s3.cn-north-1.amazonaws.com.cn/anjiplus-shh/8756fe67adaeae1878025f1fa913df19536410269421955591.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.section__img>view{
+  background:#fff;
+  width:370rpx;
+  height:380rpx;
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin:-190rpx 0 0 -175rpx;
+}
+.section__phone{
+  margin-top: 30rpx;
+}
+.section__phone,.section__address{
+  text-align: center;
+  padding: 15rpx;
+}
+.content view:first-child{
+  text-align: center;
+  padding: 20rpx;
+  color:#000;
+}
+.list{
+  padding: 0 20rpx;
+}
+.list text{
+  padding: 0 10rpx;
+}

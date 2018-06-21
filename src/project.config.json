@@ -94,6 +94,12 @@
 					"name": "扫码页面",
 					"pathName": "pages/user/scanCodeInfo/scanCodeInfo",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "检测二维码",
+					"pathName": "pages/index/lookCode/lookCode",
+					"query": ""
 				}
 			]
 		}
