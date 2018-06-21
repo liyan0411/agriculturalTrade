@@ -4,3 +4,6 @@ page {
   min-height: 100%;
   color: #333;
 }
+.input-placeholder {
+  color: #999;
+}

@@ -9,12 +9,17 @@
       <view class='title'>商品数量:</view>
       <input type='number' name='commodityNumber' placeholder='请输入商品数量'></input>
     </view>
-    <view class='row'>
+    <view class='row address'>
       <view class='title'>产地:</view>
       <view class='right'>
-        <view>省市</view>
+        <!-- <view>省市</view>
         <view>城市</view>
-        <view>区县</view>
+        <view>区县</view> -->
+        <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+          <view class="picker">
+            {{region[0]}}{{region[1]}}{{region[2]}}
+          </view>
+        </picker>
       </view>
     </view>
     <view class='row'>
@@ -27,9 +32,14 @@
     <view class='row'>
       <view class='title'>到货时间:</view>
       <view class='right'>
-        <view>2018</view>
+        <!-- <view>2018</view>
         <view>8月</view>
-        <view>8日</view>
+        <view>8日</view> -->
+        <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+          <view class="picker">
+            {{date}}
+          </view>
+        </picker>
       </view>
     </view>
   </view>

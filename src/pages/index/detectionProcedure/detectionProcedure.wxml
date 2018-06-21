@@ -11,7 +11,7 @@
         <text class='kg'>KG</text>
       </view>
     </view>
-    <view class='row'>
+    <view class='row address'>
       <view class='title'>产地:</view>
       <view class='right'>
         <view>浙江省</view>
@@ -19,7 +19,7 @@
         <view>滨江区</view>
       </view>
     </view>
-    <view class='row address'>
+    <view class='row'>
       杭州市滨江区网商路688号1号楼3楼302室
     </view>
     <view class='row'>
@@ -36,5 +36,5 @@
     </view> -->
   </view>
   <view class='state'>检测中</view>
-  <button class='submit-btn'>查看检测二维码</button>
+  <button class='submit-btn' catchtap='lookCode'>查看检测二维码</button>
 </view>

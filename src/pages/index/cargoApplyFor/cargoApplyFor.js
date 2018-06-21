@@ -5,9 +5,21 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    date: '请选择到货时间',
+    region: ['请选择产地']
   },
-
+  // 选择日期
+  bindDateChange: function (e) {
+    this.setData({
+      date: e.detail.value
+    })
+  },
+  // 选择产地
+  bindRegionChange: function (e) {
+    this.setData({
+      region: e.detail.value
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
