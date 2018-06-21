@@ -12,11 +12,17 @@
       <view class='title'>店铺名:</view>
       <input type='number' name='storeName' placeholder='请输入店铺名'></input>
     </view>
-    <view class='row'>
+    <view class='row location'>
       <view class='title'>位置:</view>
       <view class='right'>
-        <view>蔬菜区</view>
-        <view>A</view>
+        <view>
+          <text>蔬菜区</text>
+          <image src='/images/icon/jiantou-xia.png'></image>
+        </view>
+        <view>
+          <text>A</text>
+          <image src='/images/icon/jiantou-xia.png'></image>
+        </view>
         <view>
           <input class='stallNumber' type='text' placeholder='输入摊位号'></input>
         </view>
@@ -41,7 +47,7 @@
     </view>
     <view class='row'>
       <view class='title'>法人:</view>
-      <input type='number' placeholder='请输入法人姓名'></input>
+      <input type='text' placeholder='请输入法人姓名'></input>
     </view>
     <view class='row'>
       <view class='title'>法人电话:</view>
@@ -49,18 +55,16 @@
     </view>
     <view class='row'>
       <view class='title'>法人身份证:</view>
-      <input type='number' placeholder='请输入法人身份证号'></input>
+      <input type='idcard' placeholder='请输入法人身份证号'></input>
     </view>
     <view class='endRow'>
-      <view class='title'>上传执照:</view>
+      <!-- <view class='title'>上传执照:</view> -->
       <view class='licence'>
         <view class='item'>
-          <view class='add'>+</view>
-          <view>营业执照</view>
+          <image src='/images/yyzz.png'></image>
         </view>
         <view class='item'>
-          <view class='add'>+</view>
-          <view>食品流通许可证</view>
+          <image src='/images/spltxkz.png'></image>
         </view>
       </view>
     </view>
