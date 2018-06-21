@@ -36,7 +36,7 @@ Page({
   openPage(e) {
     let url = e.currentTarget.dataset.url
     wx.navigateTo({
-      url
+      url: url
     })
   },
   /**

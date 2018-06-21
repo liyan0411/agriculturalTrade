@@ -5,6 +5,7 @@ page {
 form {
   display: block;
   margin-top: 20rpx;
+  padding-bottom: 40rpx;
 }
 
 form .box {
