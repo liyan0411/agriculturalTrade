@@ -1,6 +1,7 @@
 /* pages/index/cargoApplyFor/cargoApplyFor.wxss */
 page {
   background: #eee;
+  color: #333;
 }
 .container {
   display: block;
@@ -9,33 +10,46 @@ page {
 .container .box {
   display: block;
   background: #fff;
-  margin-bottom: 140rpx;  
+  margin-bottom: 52rpx;  
 }
 
 .container .row {
   display: flex;
   align-items: center;
-  padding: 34rpx 30rpx;      
+  padding: 36rpx 30rpx;      
   border-bottom: 1rpx solid #eee;
+}
+.container .address {
+  padding: 36rpx 0;
+  margin-left: 30rpx;
+  color: #999;     
+  font-size: 14px;
 }
 .container .row:last-child {
   border-bottom: none;
 }
 .container .row .title {
-  width: 75px;
+  width: 100px;
+  color: #666;
+  font-size: 14px;
 }
 .container .row .right {
   display: flex;
   flex: 1;
   align-items: center;
+  font-size: 13px;
 }
 
 .container .row .right view {
   margin-right: 20rpx;
-  border: 1rpx solid #eee;
-  border-radius: 8rpx;
-  padding: 0 10rpx;
+  border: 1rpx solid #ddd;
+  border-radius: 4rpx;
+  /* padding: 0 10rpx; */
+  width: 108rpx;
+  height: 42rpx;
   color: #999;
+  font-size: 12px;
+  text-align: center;
 }
 input {
   flex: 1;
@@ -47,12 +61,20 @@ input {
   height: 50rpx;
   line-height: 50rpx;
   margin: 0 auto;
-  margin-bottom: 10rpx;
+  margin-bottom: 20rpx;
   border-radius: 8rpx;
   border: 1rpx solid #ddd;
+  color: #666;
 }
 .submit-btn {
   color: #fff;
   background: #11b37a;
   width: 690rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 16px;
+  border-radius: 10rpx;
+}
+.kg {
+  color: #11b37a;
 }
