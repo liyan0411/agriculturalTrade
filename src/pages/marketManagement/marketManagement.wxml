@@ -54,7 +54,22 @@
       </view>
     </view>
   </view>
-  <view wx:if="{{ isShowPayRecord }}">
-    缴费记录
+  <view class='payTheFees' wx:if="{{ isShowPayRecord }}">
+    <view class='ul'>
+      <view class='li'>
+        <view class='left'>
+          <view>物业费</view>
+          <view class='date'>到期日期：6月30日</view>
+        </view>
+        <view class='right'>320</view>
+      </view>
+      <view class='li'>
+        <view class='left'>
+          <view>物业费</view>
+          <view class='date'>到期日期：6月30日</view>
+        </view>
+        <view class='right'>320</view>
+      </view>
+    </view>
   </view>
 </view>
