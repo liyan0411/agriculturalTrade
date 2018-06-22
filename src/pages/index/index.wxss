@@ -1,7 +1,17 @@
 page {
   background: #eee;
 }
-
+.kong{
+  text-align: center;
+  padding-top: 200rpx;
+}
+.kong>view{
+  padding: 20rpx;
+}
+.kong>image{
+  width:260rpx;
+  height:260rpx;
+}
 .flex-wrp{
   height: 100%;
   flex-direction:column;

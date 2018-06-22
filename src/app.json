@@ -13,7 +13,8 @@
     "pages/user/myCommodity/myCommodity",
     "pages/user/contract/contract",
     "pages/user/marketInfo/marketInfo",
-    "pages/user/scanCodeInfo/scanCodeInfo"
+    "pages/user/scanCodeInfo/scanCodeInfo",
+    "pages/user/infoDetails/infoDetails"
   ],
   "window": {
     "backgroundTextStyle": "light",

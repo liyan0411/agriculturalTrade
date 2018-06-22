@@ -100,6 +100,12 @@
 					"name": "检测二维码",
 					"pathName": "pages/index/lookCode/lookCode",
 					"query": ""
+				},
+				{
+					"id": 11,
+					"name": "消息详情",
+					"pathName": "pages/user/infoDetails/infoDetails",
+					"query": ""
 				}
 			]
 		}
