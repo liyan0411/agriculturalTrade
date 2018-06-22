@@ -1,6 +1,6 @@
 <navigation-bar title="市场消息" isShowBack="{{ true }}"></navigation-bar>
 <view class='list'>
-  <view class='item'>
+  <view class='item' catchtap='info'>
     <view class='title'>
       <view class='text'>消息通知题目</view>
       <view class='statu'>
@@ -12,7 +12,7 @@
       <view class='jiantou'>></view>
     </view>
   </view>
-  <view class='item isRead'>
+  <view class='item isRead' catchtap='info'>
     <view class='title'>
       <view class='text'>消息通知题目</view>
     </view>

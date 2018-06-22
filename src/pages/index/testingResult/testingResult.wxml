@@ -1,29 +1,34 @@
 <navigation-bar title="检测结果" isShowBack="{{ true }}"></navigation-bar>
 <view class='container'>
-  <view class='banner'></view>
+  <view class='banner'>
+    <view>合格</view>
+    <view>大白菜</view>
+  </view>
   <view class='ul'>
     <view class='title'>
-      <view>不合格项目</view>
+      <view>孔雀石绿</view>
+      <text>阳性</text>
     </view>
     <view class='li'>
-      <view class='left'>孔雀石绿</view>
+      <view class='left'>检测标准</view>
       <view class='right'>0.23ug/Kg</view>
     </view>
     <view class='li'>
-      <view class='left'>孔雀石绿</view>
+      <view class='left'>检测标准</view>
       <view class='right'>0.23ug/Kg</view>
     </view>
   </view>
   <view class='ul'>
     <view class='title'>
-      <view>合格项目</view>
+      <view>孔雀石绿</view>
+      <text>阳性</text>      
     </view>
     <view class='li'>
-      <view class='left'>孔雀石绿</view>
+      <view class='left'>检测标准</view>
       <view class='right'>0.23ug/Kg</view>
     </view>
     <view class='li'>
-      <view class='left'>孔雀石绿</view>
+      <view class='left'>检测标准</view>
       <view class='right'>0.23ug/Kg</view>
     </view>
   </view>

@@ -5,9 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    area: ['蔬菜区','熟食','肉类','鸡蛋'],
+    areaNum: ['A','B','C','D'],
+    areaIndex: 0,
+    areaNumIndex: 0
   },
-
+  // 区域选择
+  areaChange: function (e) {
+    this.setData({
+      areaIndex: e.detail.value
+    })
+  },
+  areaNumChange: function (e) {
+    this.setData({
+      areaNumIndex: e.detail.value
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

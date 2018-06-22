@@ -1,4 +1,4 @@
-<navigation-bar title="市场管理" isShowBack="{{ false }}"></navigation-bar>
+<navigation-bar title="市场管理" isShowBack="{{ false }}"></navigation-bar> 
 <view>
   <view class='topBox'>
     <view class='box'>
@@ -7,48 +7,31 @@
         <view class='total'>320</view>
       </view>
       <view class='bottom'>
-        <view class='row' catchtap='toggle' data-type="1">
+        <view class='row {{ isShowPayTheFees ? "active" : "" }}' catchtap='toggle' data-type="1">
           <view class='icon'></view>
-          <view class="{{ isShowPayTheFees ? 'active' : '' }}">应缴费用</view>
+          <view>应缴费用</view>
         </view>
-        <view class='row' catchtap='toggle' data-type="2">
+        <view class='row {{ isShowPayRecord  ? "active" : "" }}' catchtap='toggle' data-type="2">
           <view class='icon'></view>
-          <view class="{{ isShowPayRecord  ? 'active' : '' }}">缴费记录</view>
+          <view>缴费记录</view>
         </view>
       </view>
     </view>
   </view>
   <view wx:if="{{ isShowPayTheFees }}" class='payTheFees'>
     <view class='ul'>
-      <view class='title'>固定费用</view>
+      <!-- <view class='title'>固定费用</view> -->
       <view class='li'>
         <view class='left'>
           <view>物业费</view>
-          <view class='date'>到期日期：6月30日</view>
+          <view class='date'>缴费时间：6月30日 07:00</view>
         </view>
         <view class='right'>320</view>
       </view>
       <view class='li'>
         <view class='left'>
-          <view>物业费</view>
-          <view class='date'>到期日期：6月30日</view>
-        </view>
-        <view class='right'>320</view>
-      </view>
-    </view>
-    <view class='ul'>
-      <view class='title'>固定费用</view>
-      <view class='li'>
-        <view class='left'>
-          <view>物业费</view>
-          <view class='date'>到期日期：6月30日</view>
-        </view>
-        <view class='right'>320</view>
-      </view>
-      <view class='li'>
-        <view class='left'>
-          <view>物业费</view>
-          <view class='date'>到期日期：6月30日</view>
+          <view>水费</view>
+          <view class='date'>缴费时间：6月30日 07:00</view>
         </view>
         <view class='right'>320</view>
       </view>
@@ -59,14 +42,14 @@
       <view class='li'>
         <view class='left'>
           <view>物业费</view>
-          <view class='date'>到期日期：6月30日</view>
+          <view class='date'>缴费时间：6月30日</view>
         </view>
         <view class='right'>320</view>
       </view>
       <view class='li'>
         <view class='left'>
           <view>物业费</view>
-          <view class='date'>到期日期：6月30日</view>
+          <view class='date'>缴费时间：6月30日</view>
         </view>
         <view class='right'>320</view>
       </view>

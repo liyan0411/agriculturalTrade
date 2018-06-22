@@ -19,33 +19,42 @@ page {
   top: 0;
   left: 0;
   width: 100%;
-  height: 200rpx;
-  background: #b48c48;
+  height: 250rpx;
+  background: url(https://s3.cn-north-1.amazonaws.com.cn/anjiplus-shh/74793d04b95a4ca53f4cec80c8f8ea42417279024089001764.png);
+  background-size: cover;
 }
 
 .topBox .box {
   position: absolute;
-  background: #fff;
+  background: url('https://s3.cn-north-1.amazonaws.com.cn/anjiplus-shh/20feae8703f06cad4a78747441c65a6b7445773706935077040.png');
   color: #333;
-  width: 690rpx;
-  left: 50%;
-  margin-left: -345rpx;
-  top: 80rpx;
+  width: 750rpx;
+  height: 290rpx;
+  background-size: cover;
+  left: 0;
+  top: 100rpx;
   border-radius: 10rpx;
-  padding-bottom: 10rpx;
+  /* padding-bottom: 10rpx; */
 }
 
 .topBox .box .head {
-  width: 100rpx;
-  height: 100rpx;
+  width: 140rpx;
+  height: 140rpx;
   border-radius: 50%;
-  background: #ddd;
   margin: 0 auto;
   margin-top: -50rpx;
+  border: 2px solid #fff;
+}
+
+.topBox .box .head image {
+  display: block;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
 }
 
 .topBox .bottom {
-  margin-top: 50rpx;
+  margin-top: 30rpx;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,14 +62,16 @@ page {
 
 .topBox .bottom .address {
   display: flex;
+  color: #999;
 }
 
 .tabNva {
   background: #fff;
   display: flex;
   justify-content: space-around;
-  margin: 0 30rpx;
+  margin: 0 20rpx;
   border-radius: 10rpx 10rpx 0 0;
+  margin-top: 100rpx;
 }
 
 .tabNva .item {
@@ -68,13 +79,13 @@ page {
   padding: 30rpx 0;
 }
 
-.tabNva .avtive {
-  border-bottom: 2rpx solid #1173fa;
-  color: #1173fa;
+.tabNva .active {
+  border-bottom: 2rpx solid #11b37a;
+  color: #11b37a;
 }
 
 .content {
-  margin: 0 30rpx;
+  margin: 0 20rpx;
 }
 
 .content1 .storeInfo {
@@ -110,25 +121,27 @@ page {
   text-align: center;
 }
 
-.content2 {
+/* .content2 {
   background: #fff;
   margin-top: 20rpx;
   border-radius: 8rpx;
-}
-.content2 .list {
+} */
+
+/* .content2 .list {
   display: flex;
   flex-wrap: wrap;
   margin: 0 30rpx;
-}
-.content2 .title {
+} */
+
+/* .content2 .title {
   display: flex;
   align-items: center;
   padding: 30rpx;
   border-bottom: 1rpx solid #ddd;
   width: 100%;
-}
+} */
 
-.content2 .title image {
+/* .content2 .title image {
   display: block;
   margin-right: 20rpx;
   width: 4rpx;
@@ -143,4 +156,116 @@ page {
 .content2 .row image {
   width: 40rpx;
   height: 40rpx;
+} */
+
+.box .name {
+  font-size: 17px;
+  color: rgb(51, 51, 51);
+  margin-bottom: 20rpx;
+}
+
+.address .icon {
+  margin-right: 30rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+.address .icon image{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.phone image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+
+.content1 .list {
+  background: #fff;
+  padding: 0 40rpx 0 30rpx;
+  border-top: 1rpx solid #eee;
+  font-size: 14px;
+  border-radius: 0 0 10rpx 10rpx;
+}
+
+.content1 .row {
+  display: flex;
+  border-bottom: 1rpx solid #eee;
+  padding: 30rpx 0;
+}
+
+.content1 .row:last-child {
+  border-bottom: none;
+}
+
+.content1 .row .title {
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+  width: 80px;
+}
+
+.content1 .row  .right {
+  flex: 1;
+}
+
+.zz {
+  background: #fff;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+  padding-top: 36rpx;
+  padding-bottom: 46rpx;
+  margin-bottom: 30rpx;
+}
+
+.zz image {
+  width: 560rpx;
+  height: 400rpx;
+}
+
+.zz > view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 46rpx;
+}
+
+.zz .txt {
+  color: rgb(153, 153, 153);
+  font-size: 16px;
+  margin-top: 30rpx;
+}
+
+.bg-hg {
+  background: url(https://s3.cn-north-1.amazonaws.com.cn/anjiplus-shh/d823c04c92c059619466887c394067106114895721266386359.png);
+}
+
+.bg-bhg {
+  background: url(https://s3.cn-north-1.amazonaws.com.cn/anjiplus-shh/6a3ee6cb1c8709a42cef341428174428299610998218592210.png);
+}
+
+.content2 .item {
+  width: 750rpx;
+  height: 174rpx;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 50rpx 35rpx 60rpx;
+}
+
+.content2 .item .txt {
+  font-size: 17px;
+  color: rgb(51, 51, 51);
+  margin-bottom: 10rpx;
+}
+
+.content2 .item .cd {
+  color: rgb(153, 153, 153);
+  font-size: 13px;
+}
+
+.content2 .item .right {
+  color: rgb(153, 153, 153);
+  font-size: 13px;
 }

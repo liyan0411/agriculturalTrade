@@ -6,26 +6,37 @@
     </view>
     <view class='row'>
       <view class='title'>头像:</view>
-      <view class='icon-head'></view>
+      <view class='icon-head'>
+        <image src=''></image>
+      </view>
     </view>
     <view class='row'>
       <view class='title'>店铺名:</view>
       <input type='number' name='storeName' placeholder='请输入店铺名'></input>
     </view>
+
     <view class='row location'>
       <view class='title'>位置:</view>
       <view class='right'>
         <view>
-          <text>蔬菜区</text>
+          <picker bindchange="areaChange" value="{{areaIndex}}" range="{{area}}">
+            <view class="picker">
+              {{area[areaIndex]}}
+            </view>
+          </picker>
           <image src='/images/icon/jiantou-xia.png'></image>
         </view>
         <view>
-          <text>A</text>
+          <picker bindchange="areaNumChange" value="{{areaNumIndex}}" range="{{areaNum}}">
+            <view class="picker">
+              {{areaNum[areaNumIndex]}}
+            </view>
+          </picker>
           <image src='/images/icon/jiantou-xia.png'></image>
         </view>
-        <view>
-          <input class='stallNumber' type='text' placeholder='输入摊位号'></input>
-        </view>
+      </view>
+      <view class='stallNumber'>
+        <input type='text' placeholder='输入摊位号'></input>
       </view>
     </view>
     <view class='row'>

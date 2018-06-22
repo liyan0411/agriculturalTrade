@@ -5,32 +5,48 @@ Page({
    * 页面的初始数据
    */
   data: {
-    isShowPayTheFees: true,
-    isShowPayRecord: false,
+    content1: true,
+    content2: false,
     commodityList: [
       {
-        imgUrl: '',
-        text: '小白菜'
+        text: '小白菜',
+        status: 0,
+        cd: '河北',
+        date: '06/14'
       },
       {
-        imgUrl: '',
-        text: '小白菜'
-      },
-      {
-        imgUrl: '',
-        text: '小白菜'
-      },
-      {
-        imgUrl: '',
-        text: '小白菜'
-      },
-      {
-        imgUrl: '',
-        text: '小白菜'
+        text: '小白菜',
+        status: 0,
+        cd: '河北',
+        date: '06/14'
+      }, {
+        text: '小白菜',
+        status: 1,
+        cd: '河北',
+        date: '06/14'
       }
     ]
   },
-
+  callPhone() {
+    wx.makePhoneCall({
+      phoneNumber: '1340000'
+    })
+  },
+  toggle(e) {
+    let type = e.currentTarget.dataset.type
+    if (type == 0) {
+      this.setData({
+        content1: true,
+        content2: false        
+      })
+    }
+    if (type == 1) {
+      this.setData({
+        content1: false,
+        content2: true
+      })
+    }
+  },
   /**
    * 生命周期函数--监听页面加载
    */
