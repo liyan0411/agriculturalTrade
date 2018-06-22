@@ -106,6 +106,12 @@
 					"name": "消息详情",
 					"pathName": "pages/user/infoDetails/infoDetails",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "市场消息",
+					"pathName": "pages/user/marketInfo/marketInfo",
+					"query": ""
 				}
 			]
 		}

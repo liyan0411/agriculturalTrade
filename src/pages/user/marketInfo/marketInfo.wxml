@@ -2,19 +2,15 @@
 <view class='list'>
   <view class='item' catchtap='info'>
     <view class='title'>
-      <view class='text'>消息通知题目</view>
-      <view class='statu'>
-        未查看
+      <view>
+        <view class='text'>消息通知题目</view>
+        <view class='statu'>
+          未查看
+        </view>
       </view>
-    </view>
-    <view class='content'>
-      <view class='text'>消息通知消息通知消息通知消息通知消息通知消息通知消息通知消息通知消息通知消息通知消息通知消息通知</view>
-      <view class='jiantou'>></view>
-    </view>
-  </view>
-  <view class='item isRead' catchtap='info'>
-    <view class='title'>
-      <view class='text'>消息通知题目</view>
+      <view class='date'>
+        18:22
+      </view>
     </view>
     <view class='content'>
       <view class='text'>消息通知消息通知消息通知消息通知消息通知消息通知消息通知消息通知消息通知消息通知消息通知消息通知</view>
