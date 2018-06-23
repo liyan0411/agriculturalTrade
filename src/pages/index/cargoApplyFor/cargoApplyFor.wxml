@@ -8,6 +8,7 @@
     <view class='row'>
       <view class='title'>商品数量:</view>
       <input type='number' name='commodityNumber' placeholder='请输入商品数量'></input>
+      <view class='kg'>KG</view>
     </view>
     <view class='row address'>
       <view class='title'>产地:</view>

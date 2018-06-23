@@ -45,6 +45,9 @@ form .row .right view {
 input {
   flex: 1;
 }
+.kg {
+  color: #11b37a;
+}
 .submit-btn {
   margin-top: 148rpx;
   color: #fff;

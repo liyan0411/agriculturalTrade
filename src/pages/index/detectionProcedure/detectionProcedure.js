@@ -12,6 +12,11 @@ Page({
       url: '/pages/index/lookCode/lookCode',
     })
   },
+  lookJg(){
+    wx.navigateTo({
+      url: '/pages/index/testingResult/testingResult',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -43,22 +43,22 @@ Page({
     })
   },
   detectionTYpe(e) {
-    let type = e.currentTarget.dataset.status
-    if(type === 1) {
-      wx.navigateTo({
-        url: '/pages/index/testingResult/testingResult',
-      })
-    }
-    if (type === 2) {
-      wx.navigateTo({
-        url: '/pages/index/testingResult/testingResult',
-      })
-    }
-    if (type === 0) {
+    // let type = e.currentTarget.dataset.status
+    // if(type === 1) {
       wx.navigateTo({
         url: '/pages/index/detectionProcedure/detectionProcedure',
       })
-    }
+    // }
+    // if (type === 2) {
+    //   wx.navigateTo({
+    //     url: '/pages/index/testingResult/testingResult',
+    //   })
+    // }
+    // if (type === 0) {
+    //   wx.navigateTo({
+    //     url: '/pages/index/detectionProcedure/detectionProcedure',
+    //   })
+    // }
   },
   onLoad: function () {
 

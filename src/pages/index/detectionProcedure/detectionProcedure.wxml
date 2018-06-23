@@ -26,15 +26,16 @@
       <view class='title'>来货车牌号:</view>
       <view>京A1314</view>
     </view>
-    <!-- <view class='row'>
+     <view class='row'>
       <view class='title'>到货时间:</view>
       <view class='right'>
-        <view>浙江省</view>
-        <view>杭州市</view>
-        <view>滨江区</view>
+        <view>2018</view>
+        <view>8月</view>
+        <view>8日</view>
       </view>
-    </view> -->
+    </view> 
   </view>
   <view class='state'>检测中</view>
   <button class='submit-btn' catchtap='lookCode'>查看检测二维码</button>
+  <button class='submit-btn' catchtap='lookJg'>查看结果</button>
 </view>
