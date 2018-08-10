@@ -1,2 +1,1 @@
-# agriculturalTrade
-智慧农贸
+# 小程序模板
