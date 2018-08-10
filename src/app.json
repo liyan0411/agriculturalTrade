@@ -1,25 +1,13 @@
 {
   "pages": [
-    "pages/login/login",
     "pages/index/index",
     "pages/marketManagement/marketManagement",
-    "pages/user/user",
-    "pages/index/cargoApplyFor/cargoApplyFor",
-    "pages/index/lookCode/lookCode",
-    "pages/index/testingResult/testingResult",
-    "pages/index/detectionProcedure/detectionProcedure",
-    "pages/user/myCard/myCard",
-    "pages/user/storeInfo/storeInfo",
-    "pages/user/myCommodity/myCommodity",
-    "pages/user/contract/contract",
-    "pages/user/marketInfo/marketInfo",
-    "pages/user/scanCodeInfo/scanCodeInfo",
-    "pages/user/infoDetails/infoDetails"
+    "pages/user/user"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "",
+    "navigationBarTitleText": "wechat",
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
   },

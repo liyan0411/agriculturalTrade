@@ -5,24 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    isShowPayTheFees: true,
-    isShowPayRecord: false
-  },
-  toggle(e) {
-    let type = e.currentTarget.dataset.type
-    console.log(type)
-    if (type == 1) {
-      this.setData({
-        isShowPayTheFees: true,
-        isShowPayRecord: false
-      })
-    }
-    if (type == 2) {
-      this.setData({
-        isShowPayTheFees: false,
-        isShowPayRecord: true
-      })
-    }
+
   },
   /**
    * 生命周期函数--监听页面加载

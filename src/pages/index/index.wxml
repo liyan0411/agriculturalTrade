@@ -1,30 +1,4 @@
-<navigation-bar title="来货备案" isShowBack="{{ false }}"></navigation-bar>
-<view class="kong"  wx:if="{{listData.length==0}}">
-  <image src="../../images/list0-bg.png"></image> 
-  <view>您还没有商品 赶紧添加吧</view>
-  <button style="width:300rpx;height:80rpx;line-height:80rpx;margin-top:40rpx;" type="primary" hover-class="activeCls" bindtap="add"> 添加检测 </button>
-</view>
-<view class="section"  wx:elif="{{listData.length!=0}}">
-  <view class="flex-wrp">
-    <view wx:for="{{listData}}" class="flex-item" catchtap='detectionTYpe' data-status="{{ item.status }}">
-      <view class="ul">
-        <view class="li">{{item.name}}
-          <text class="smallCls">({{item.num}})</text>
-        </view>
-        <view class="li">提交时间：
-          <text>{{item.time}}</text>
-        </view>
-      </view>
-      <image wx:if="{{item.status==1}}" src="../../images/pass.png"></image>
-      <image wx:elif="{{item.status==2}}" src="../../images/nopass.png"></image>
-      <image wx:elif="{{item.status==0}}" src="../../images/test.png"></image>
-    </view>
-
-  </view>
-  <view style="padding: 85rpx 0;">
-    <view style="border-color:#eee;;background:none;color:#eee;">占位</view>
-  </view>
-  <view class="btnView">
-    <button type="primary" hover-class="activeCls" bindtap="add"> 添加检测 </button>
-  </view>
+<navigation-bar title="首页" isShowBack="{{ false }}"></navigation-bar>
+<view>
+  首页
 </view>

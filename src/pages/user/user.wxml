@@ -1,35 +1,4 @@
 <navigation-bar title="我的" isShowBack="{{ false }}"></navigation-bar>
-<view class='box'>
-  <view class='card'>
-    <view class='userInfo'>
-      <image class='head' src="/images/user/head.png"></image>
-      <view class='info'>
-        <view class='name'>正品农贸店</view>
-        <view class='id'>ID:56464334</view>
-      </view>
-    </view>
-    <image class='ewm' src='/images/user/ewm.png' catchtap='myCard'></image>
-  </view>
-  <view class='list'>
-    <view class='row' wx:for="{{ navList }}" data-url="{{ item.url }}" catchtap='openPage'>
-      <view class='icon'><image src="{{ item.iconUrl }}"></image></view>
-      <view class='text'>{{ item.text }}</view>
-    </view>
-    <!-- <view class='row'>
-      <view class='icon'><image src="/images/user/icon2.png"></image></view>
-      <view class='text'>商品管理</view>
-    </view>
-    <view class='row'>
-      <view class='icon'><image src="/images/user/icon3.png"></image></view>
-      <view class='text'>查看合同</view>
-    </view>
-    <view class='row'>
-      <view class='icon'><image src="/images/user/icon4.png"></image></view>
-      <view class='text'>查看店铺</view>
-    </view>
-    <view class='row'>
-      <view class='icon'><image src="/images/user/icon5.png"></image></view>
-      <view class='text'>市场消息</view>
-    </view> -->
-  </view>
+<view>
+  我的
 </view>

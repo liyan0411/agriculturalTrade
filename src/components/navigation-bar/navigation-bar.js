@@ -6,6 +6,10 @@ Component({
       type: String,
       value: '#fff'
     },
+    borderColor: {
+      type: String,
+      value: '#eee'
+    },
     textColor: {
       type: String,
       value: '#000'
